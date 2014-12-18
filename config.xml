@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "1212776"
+        version   = "1.0">
+
+    <name>ConfApp</name>
+
+    <description>
+        Applicazione per agenti conformgest
+    </description>
+
+    <author >
+        Martinotti Davide
+    </author>
+
+	<preference name="stay-in-webview" value="false" /> 
+	<preference name="target-device"              value="universal" />  
+	
+	<icon src="icon.png" />
+    <icon src="res/icon/android/drawable-ldpi/tp_icon.png" gap:platform="android" gap:qualifier="ldpi" />
+    <icon src="res/icon/android/drawable-mdpi/tp_icon.png" gap:platform="android" gap:qualifier="mdpi" />
+    <icon src="res/icon/android/drawable-hdpi/tp_icon.png" gap:platform="android" gap:qualifier="hdpi" />
+    <icon src="res/icon/android/drawable-xhdpi/tp_icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+    <icon src="res/icon/android/drawable-xxhdpi/tp_icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+    
+    <icon src="res/icon/ios/Icon-72.png" gap:platform="ios" gap:qualifier=""/>
+    
+    <icon src="res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57" />
+    <icon src="res/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="res/icon/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
+    <icon src="res/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />
+    
+
+</widget>
